@@ -15,9 +15,9 @@ Pod::Spec.new do |s|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  s.name         = "__ProjectName__"
+  s.name         = "__ProjectName___Extension"
   s.version      = "1"
-  s.summary      = "__ProjectName__."
+  s.summary      = "__ProjectName___Extension."
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
-                    this is __ProjectName__
+                    this is __ProjectName___Extension
                    DESC
 
   s.homepage     = "__HomePage__"
@@ -91,7 +91,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "__ProjectName__/__ProjectName__/**/*.{h,m,swift}"
+  s.source_files  = "__ProjectName__/__ProjectName___Extension/**/*.{h,m,swift}"
   # s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
@@ -133,6 +133,6 @@ Pod::Spec.new do |s|
   s.requires_arc = true
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-  # s.dependency "CTMediator"
+  s.dependency "CTMediator"
 
 end
