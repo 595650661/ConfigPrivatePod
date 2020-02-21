@@ -67,7 +67,7 @@ done
 licenseFilePath="../${projectName}/FILE_LICENSE"
 gitignoreFilePath="../${projectName}/.gitignore"
 specFilePath="../${projectName}/${projectName}.podspec"
-extensionSpecFilePath="../${projectName}/${projectName}_extension.podspec"
+extensionSpecFilePath="../${projectName}/${projectName}_Extension.podspec"
 readmeFilePath="../${projectName}/readme.md"
 uploadFilePath="../${projectName}/upload.sh"
 uploadExtensionFilePath="../${projectName}/upload_extension.sh"
